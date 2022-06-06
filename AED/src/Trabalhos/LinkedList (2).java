@@ -110,9 +110,7 @@ public class LinkedList {
         return currentNode.data;
     }
 
-    /* End Grupo A */
-
-    /* Grupo B */
+  
     public void setNode(int index, int value) {
         if (index <= this.size - 1 && index >= 0) {
             int position = 0;
