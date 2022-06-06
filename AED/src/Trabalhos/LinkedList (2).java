@@ -135,9 +135,7 @@ public class LinkedList {
         current = null;
         this.size--;
     }
-    /* End Grupo C */
 
-    /* Grupo D */
     public void addFirst(int data) {
         Node newNode = new Node(data, null);
         // /.newNode.data=data;
