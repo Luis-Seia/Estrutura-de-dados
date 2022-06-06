@@ -72,7 +72,7 @@ public class DoubleLinkedList {
             System.out.println();
         }
     }
-    // Grupo A addAt
+
     public void addAt(int valor, int posicao){
         if (posicao > size) {
             System.out.println("lista vazia ou posicao invalida");
@@ -90,9 +90,6 @@ public class DoubleLinkedList {
             addBetween(valor, currentNode, currentNode.next);
         }
     }
-    // End Grupo A
-
-    // Grupo B getAt
     public int get(int posicao) {
         Node currentNode;
         if (size == 0 || posicao < 0 || posicao >= size) {
