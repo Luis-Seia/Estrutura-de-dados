@@ -95,7 +95,7 @@ public class LinkedList {
         }
     }
 
-    /* Grupo A */
+   
     public int getFirst() {
         if (size == 0)
             return -1;
