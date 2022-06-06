@@ -110,7 +110,7 @@ public class DoubleLinkedList {
         }
         return currentNode.data;
     }
-    // End Grupo B
+
 
     public int getFirst() {
         if (this.size > 0) {
