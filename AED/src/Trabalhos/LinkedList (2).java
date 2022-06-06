@@ -128,9 +128,7 @@ public class LinkedList {
         }
 
     }
-    /* End Grupo B */
 
-    /* Grupo C */
     public void removeFirst() {
         Node current = this.head;
         this.head = head.next;
