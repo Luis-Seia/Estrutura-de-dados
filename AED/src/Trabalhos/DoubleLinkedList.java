@@ -43,8 +43,7 @@ public class DoubleLinkedList {
         // Fazemos com que o nó seguinte esteja também ligado ao novo nó
         nextNode.prev = newNode;
 
-        // Incrementamos o tamanho da lista
-        this.size++;
+           this.size++;
     }
 
     public void addFirst(int valor) {
