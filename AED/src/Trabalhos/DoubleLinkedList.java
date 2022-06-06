@@ -122,7 +122,7 @@ public class DoubleLinkedList {
         
     }
 
-    // Grupo D 
+    
     public int getLast() {
         if (this.size > 0) {
             Node currentNode = this.last.prev;
