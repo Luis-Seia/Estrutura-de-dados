@@ -147,9 +147,7 @@ public class LinkedList {
         }
         size++;
     }
-    /* End Grupo D */
 
-    /* Grupo E */
     public void removeLast() {
         Node currentNode = this.head;
         int position = 0;
