@@ -164,7 +164,7 @@ public class LinkedList {
         this.size--;
 
     }
-    /* End Grupo E */
+ 
 
     public static void main(String[] args) {
         LinkedList LL = new LinkedList();
